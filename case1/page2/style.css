@@ -1,0 +1,68 @@
+html{
+    width: 980px;
+    margin: auto;
+    font-family: cursive;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1.5px solid;
+    padding: 10px;
+}
+
+ header div {
+    margin: 5px;
+}
+
+.User{
+    margin-left: auto;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.info img{
+    height: 70px;
+    width: 40px;
+    margin:15px;
+}
+
+.caption{
+    padding-top: 10px;
+    font-size: larger;
+}
+.card{
+    border:1.5px solid;
+    padding: 10px;
+    margin: 10px;
+}
+.title{
+    font-size: larger;
+    align-self: center;
+}
+.rating{
+    align-self: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1.5px solid;
+    border-top:none;
+    text-align: center;
+    margin:0 5% 0 5%;
+}
+
+
+.sort{
+    padding: 5px;
+    margin-left:auto ;
+}
+.sort a{
+    padding: 5px;
+}
